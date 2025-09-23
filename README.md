@@ -10,14 +10,14 @@
 
 ## Project Structure
 
-final-project-team-5/
-│
-├─ data/                          # Raw and processed datasets
-├─ notebooks/                     # Jupyter notebooks for analysis
-├─ src/                           # Python scripts / modules
-├─ results/                       # Generated plots, tables, outputs
-├─ final_project_team5_env.yml    # Conda environment file
-└─ README.md                      # Project description and instructions
+`final-project-team-5/`<br>
+│<br>
+├─ `data/                           # Raw and processed datasets`<br>
+├─ `notebooks/                      # Jupyter notebooks for analysis`<br>
+├─ `src/                            # Python scripts / modules`<br>
+├─ `results/                        # Generated plots, tables, outputs`<br>
+├─ `final_project_team5_env.yml     # Conda environment file`<br>
+└─ `README.md                       # Project description and instructions`
 
 ## Setup Instructions
 
