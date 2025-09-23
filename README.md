@@ -22,17 +22,23 @@
 ## Setup Instructions
 
 1. **Clone the repository**
-```bash
+```sh
+# bash
+
 git clone https://github.com/seanmcgowanx/aai-500-final-project-team-5.git
-cd final-project-team-5
+cd aai-500-final-project-team-5
 ```
 2. **Create and activate the Conda environment**
-```bash
-conda env create -f final_project_team5_env.yml
-conda activate final_project_team5
+```sh
+# bash
+
+conda env create -f aai-500-final-project-team-5.yml
+conda activate aai-500-final-project-team-5
 ```
 3. **Launch JupyterLab**
-```bash
+```sh
+#bash
+
 jupyter lab
 ```
 ## Usage
