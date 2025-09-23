@@ -23,7 +23,7 @@
 
 1. **Clone the repository**
 ```bash
-git clone <repo-url>
+git clone https://github.com/seanmcgowanx/aai-500-final-project-team-5.git
 cd final-project-team-5
 ```
 2. **Create and activate the Conda environment**
