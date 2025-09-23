@@ -12,12 +12,12 @@
 
 `final-project-team-5/`<br>
 │<br>
-├─ `data/                                # Raw and processed datasets`<br>
-├─ `notebooks/                           # Jupyter notebooks for analysis`<br>
-├─ `src/                                 # Python scripts / modules`<br>
-├─ `results/                             # Generated plots, tables, outputs`<br>
-├─ `aai-500-final-project-team-5.yml     # Conda environment file`<br>
-└─ `README.md                            # Project description and instructions`
+├─ `data/                 # Raw and processed datasets`<br>
+├─ `notebooks/            # Jupyter notebooks for analysis`<br>
+├─ `src/                  # Python scripts / modules`<br>
+├─ `results/              # Generated plots, tables, outputs`<br>
+├─ `environment.yml       # Conda environment file`<br>
+└─ `README.md             # Project description and instructions`
 
 ## Setup Instructions
 
@@ -32,8 +32,8 @@ cd aai-500-final-project-team-5
 ```sh
 # bash
 
-conda env create -f aai-500-final-project-team-5.yml
-conda activate aai-500-final-project-team-5
+conda env create -f environment.yml
+conda activate environment
 ```
 3. **Launch JupyterLab**
 ```sh
