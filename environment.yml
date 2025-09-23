@@ -1,0 +1,14 @@
+name: final-project-team-5
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - matplotlib
+  - pandas
+  - seaborn
+  - numpy
+  - scipy
+  - statsmodels
+  - scikit-learn
+  - jupyter
+prefix: /opt/miniconda3/envs/final-project-team-5
