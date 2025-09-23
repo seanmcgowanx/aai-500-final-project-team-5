@@ -2,6 +2,7 @@
 
 ## Project Overview
 
+No overview, yet
 
 ## Team Members
 - Sean McGowan
@@ -15,37 +16,28 @@
 ├─ `data/                 # Raw and processed datasets`<br>
 ├─ `notebooks/            # Jupyter notebooks for analysis`<br>
 ├─ `src/                  # Python scripts / modules`<br>
-├─ `results/              # Generated plots, tables, outputs`<br>
 ├─ `environment.yml       # Conda environment file`<br>
 └─ `README.md             # Project description and instructions`
 
 ## Setup Instructions
 
-1. **Clone the repository**
+1. **Clone the repository** 
 ```sh
-# bash
-
 git clone https://github.com/seanmcgowanx/aai-500-final-project-team-5.git
 cd aai-500-final-project-team-5
 ```
-2. **Create and activate the Conda environment**
+2. **Create the Conda environment** 
 ```sh
-# bash
-
 conda env create -f environment.yml
-conda activate final-project-team-5
 ```
-3. **Launch JupyterLab**
+3. **Activate the Conda environment** 
 ```sh
-#bash
-
-jupyter lab
-```
+conda activate final-project-team-5
+``` 
 ## Usage
 
 - Notebooks in the `notebooks/` folder contain step-by-step analysis
 - Python scripts in the `src/` folder can be imported for reproducible analysis
-- Results (plots, tables) are saved in the `results/` folder
 
 ## Libraries Used
 
