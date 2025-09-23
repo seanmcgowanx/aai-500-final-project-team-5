@@ -33,7 +33,7 @@ cd aai-500-final-project-team-5
 # bash
 
 conda env create -f environment.yml
-conda activate environment
+conda activate final-project-team-5
 ```
 3. **Launch JupyterLab**
 ```sh
