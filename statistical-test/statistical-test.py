@@ -8,8 +8,8 @@ data_path = os.path.join(os.path.dirname(__file__), '../data/student_preprocesse
 df = pd.read_csv(data_path)
 
 # Separate groups
-female = df[df["sex_binary"] == 0]["G3"]
-male = df[df["sex_binary"] == 1]["G3"]
+female = df[df["sex"] == 0]["G3"]
+male = df[df["sex"] == 1]["G3"]
 
 # Welch’s t-test (unequal variances)
 t_stat, p_val = stats.ttest_ind(male, female, equal_var=False)
@@ -26,8 +26,8 @@ else:
 
 # T-test: mean grade difference by school
 # Separate students by school
-gp = df[df["school_binary"] == 1]["G3"]
-ms = df[df["school_binary"] == 0]["G3"]
+gp = df[df["school"] == 1]["G3"]
+ms = df[df["school"] == 0]["G3"]
 
 # Perform Welch’s t-test (unequal variances)
 t_stat, p_val = stats.ttest_ind(gp, ms, equal_var=False)
@@ -45,8 +45,8 @@ else:
 # Chi-Squared Test of Independence for Categorical Variables
 # Define categorical variable pairs to test
 chi_pairs = [
-    ('sex_binary', 'higher_binary'),
-    ('romantic_binary', 'higher_binary'),
+    ('sex', 'higher'),
+    ('romantic', 'higher')
 ]
 
 
