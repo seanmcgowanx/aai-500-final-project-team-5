@@ -1,8 +1,8 @@
-# Final Project - Team 5
+# Predicting Student Achievement in Portuguese Secondary Schools
 
-## Project Overview
+## Study Overview
 
-No overview, yet
+This project aimed to develop and compare predictive models for student final grades (G3) using academic, behavioral, and demographic variables. The analysis evaluated linear and ensemble algorithms to identify both the most accurate predictive framework and the key factors, including early-term grades and secondary predictors, that influence student performance.
 
 ## Team Members
 - Sean McGowan
@@ -15,7 +15,7 @@ No overview, yet
 │<br>
 ├─ `data/                 # Raw and processed datasets`<br>
 ├─ `notebooks/            # Jupyter notebooks for analysis`<br>
-├─ `src/                  # Python scripts / modules`<br>
+├─ `visualizations/       # Saved figures from the notebook`<br>
 ├─ `environment.yml       # Conda environment file`<br>
 └─ `README.md             # Project description and instructions`
 
@@ -37,7 +37,7 @@ conda activate final-project-team-5
 ## Usage
 
 - Notebooks in the `notebooks/` folder contain step-by-step analysis
-- Python scripts in the `src/` folder can be imported for reproducible analysis
+
 
 ## Libraries Used
 
