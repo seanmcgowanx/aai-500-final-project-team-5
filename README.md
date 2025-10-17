@@ -1,8 +1,10 @@
-# Predicting Student Achievement in Portuguese Secondary Schools
+# Predicting Student Performance in Portuguese Secondary Schools
 
 ## Study Overview
 
-This project aimed to develop and compare predictive models for student final grades (G3) using academic, behavioral, and demographic variables. The analysis evaluated linear and ensemble algorithms to identify both the most accurate predictive framework and the key factors, including early-term grades and secondary predictors, that influence student performance.
+Dataset: "Student Performance" dataset by Paulo Cortez and Alice M. G. Silva (UCI Machine Learning Repository, 2008).
+
+This study aimed to develop and compare predictive models for student final grades (G3) using academic, behavioral, and demographic variables. The analysis evaluated linear and ensemble algorithms to identify both the most accurate predictive framework and the key factors, including early-term grades and secondary predictors, that influence student performance.
 
 ## Team Members
 - Sean McGowan
@@ -11,7 +13,7 @@ This project aimed to develop and compare predictive models for student final gr
 
 ## Project Structure
 
-`final-project-team-5/`<br>
+`student-performance/`<br>
 │<br>
 ├─ `data/                 # Raw and processed datasets`<br>
 ├─ `notebooks/            # Jupyter notebooks for analysis`<br>
