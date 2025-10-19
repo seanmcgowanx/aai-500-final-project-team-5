@@ -25,8 +25,8 @@ This study aimed to develop and compare predictive models for student final grad
 
 1. **Clone the repository** 
 ```sh
-git clone https://github.com/seanmcgowanx/aai-500-final-project-team-5.git
-cd aai-500-final-project-team-5
+git clone https://github.com/seanmcgowanx/student-performance.git
+cd student-performance
 ```
 2. **Create the Conda environment** 
 ```sh
